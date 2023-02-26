@@ -103,9 +103,3 @@ bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/compress-jp
 ```
 bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/git-reset-branch.sh)
 ```
-
-## For backup (rclone)
-###### [rclone-backup](https://github.com/MajinSaaY/scripts/blob/main/rclone-backup.sh)
-```
-bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/rclone-backup.sh)
-```
