@@ -32,24 +32,64 @@ bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/compress-mp
 bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/compress-mp4.sh)
 ```
 
-###### [resize-mp4-horizontal-hevc](https://github.com/MajinSaaY/scripts/blob/main/resize-mp4-horizontal-hevc.sh)
+###### [resize-mp4-1080p-horizontal-hevc](https://github.com/MajinSaaY/scripts/blob/main/resize-mp4-1080p-horizontal-hevc.sh)
 ```
-bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/resize-mp4-horizontal-hevc.sh)
-```
-
-###### [resize-mp4-horizontal](https://github.com/MajinSaaY/scripts/blob/main/resize-mp4-horizontal.sh)
-```
-bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/resize-mp4-horizontal.sh)
+bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/resize-mp4-1080p-horizontal-hevc.sh)
 ```
 
-###### [resize-mp4-vertical-hevc](https://github.com/MajinSaaY/scripts/blob/main/resize-mp4-vertical-hevc.sh)
+###### [resize-mp4-1080p-horizontal](https://github.com/MajinSaaY/scripts/blob/main/resize-mp4-1080p-horizontal.sh)
 ```
-bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/resize-mp4-vertical-hevc.sh)
+bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/resize-mp4-1080p-horizontal.sh)
 ```
 
-###### [resize-mp4-vertical](https://github.com/MajinSaaY/scripts/blob/main/resize-mp4-vertical.sh)
+###### [resize-mp4-720p-horizontal-hevc](https://github.com/MajinSaaY/scripts/blob/main/resize-mp4-720p-horizontal-hevc.sh)
 ```
-bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/resize-mp4-vertical.sh)
+bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/resize-mp4-720p-horizontal-hevc.sh)
+```
+
+###### [resize-mp4-720p-horizontal](https://github.com/MajinSaaY/scripts/blob/main/resize-mp4-720p-horizontal.sh)
+```
+bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/resize-mp4-720p-horizontal.sh)
+```
+
+###### [resize-mp4-540p-horizontal-hevc](https://github.com/MajinSaaY/scripts/blob/main/resize-mp4-540p-horizontal-hevc.sh)
+```
+bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/resize-mp4-540p-horizontal-hevc.sh)
+```
+
+###### [resize-mp4-540p-horizontal](https://github.com/MajinSaaY/scripts/blob/main/resize-mp4-540p-horizontal.sh)
+```
+bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/resize-mp4-540p-horizontal.sh)
+```
+
+###### [resize-mp4-1080p-vertical-hevc](https://github.com/MajinSaaY/scripts/blob/main/resize-mp4-1080p-vertical-hevc.sh)
+```
+bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/resize-mp4-1080p-vertical-hevc.sh)
+```
+
+###### [resize-mp4-1080p-vertical](https://github.com/MajinSaaY/scripts/blob/main/resize-mp4-1080p-vertical.sh)
+```
+bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/resize-mp4-1080p-vertical.sh)
+```
+
+###### [resize-mp4-720p-vertical-hevc](https://github.com/MajinSaaY/scripts/blob/main/resize-mp4-720p-vertical-hevc.sh)
+```
+bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/resize-mp4-720p-vertical-hevc.sh)
+```
+
+###### [resize-mp4-720p-vertical](https://github.com/MajinSaaY/scripts/blob/main/resize-mp4-720p-vertical.sh)
+```
+bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/resize-mp4-720p-vertical.sh)
+```
+
+###### [resize-mp4-540p-vertical-hevc](https://github.com/MajinSaaY/scripts/blob/main/resize-mp4-540p-vertical-hevc.sh)
+```
+bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/resize-mp4-540p-vertical-hevc.sh)
+```
+
+###### [resize-mp4-540p-vertical](https://github.com/MajinSaaY/scripts/blob/main/resize-mp4-540p-vertical.sh)
+```
+bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/resize-mp4-540p-vertical.sh)
 ```
 
 ## For image
