@@ -25,7 +25,7 @@ diff --suppress-common-lines .list.txt .compressed.txt | grep "^<\|^>" | sed "s/
 tocom=$(cat .to-compress.txt)
 for file in $tocom
 do
-   ffmpeg -i "${file}.mp4" -vcodec libx265 -preset ultrafast -crf 23 -vf scale=-1:540  "${file}-recoded.mp4"
+   ffmpeg -i "${file}.mp4" -vcodec libx265 -preset ultrafast -crf 21 -vf scale=-1:540  "${file}-recoded.mp4"
    rm "${file}.mp4"
    mv "${file}-recoded.mp4" "${file}.mp4"
    echo "${file}.mp4 done"
