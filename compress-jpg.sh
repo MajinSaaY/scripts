@@ -20,7 +20,7 @@ do name=`echo "$i" | rev | cut -d'.' -f2- | rev`
 done
 
 #Replace white space on filename
-rename ' ' '_' *
+for file in *; do mv "$file" ${file// /_}; done
 
 #Create jpg file list
 ls *.jpg | rev | cut -d'.' -f2- | rev > .list-i.txt

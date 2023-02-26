@@ -13,7 +13,7 @@
 touch .list.txt .to-compress.txt .compressed.txt
 
 #Replace white space on filename
-rename ' ' '_' *
+for file in *; do mv "$file" ${file// /_}; done
 
 #Create mp4 file list
 ls *.mp4 | rev | cut -d'.' -f2- | rev > .list.txt

@@ -16,7 +16,7 @@ touch .list.txt .to-compress.txt .compressed.txt
 ls *.mp4 | rev | cut -d'.' -f2- | rev > .list.txt
 
 #Replace white space on filename
-rename ' ' '_' *
+for file in *; do mv "$file" ${file// /_}; done
 
 #Create to-compress list
 diff --suppress-common-lines .list.txt .compressed.txt | grep "^<\|^>" | sed "s/^. //g" > .to-compress.txt
