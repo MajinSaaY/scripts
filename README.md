@@ -16,6 +16,16 @@ bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/delete-mp3-
 bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/get-music-url-list.sh)
 ```
 
+###### [get-vimusic-url-list](https://github.com/MajinSaaY/scripts/blob/main/get-vimusic-url-list.sh)
+```
+bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/get-vimusic-url-list.sh)
+```
+
+###### [get-vimusic-url-list-playlists](https://github.com/MajinSaaY/scripts/blob/main/get-vimusic-url-list-playlists.sh)
+```
+bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/get-vimusic-url-list-playlists.sh)
+```
+
 ## For video
 ###### [check-mp4-integrity](https://github.com/MajinSaaY/scripts/blob/main/check-mp4-integrity.sh)
 ```
