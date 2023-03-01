@@ -1,0 +1,57 @@
+#!/bin/bash
+#
+# This script is used to generate url list for all your music from vimusic backup db (included in playlists only)
+#
+# HOW TO USE
+#
+# Navigate to folder containing the vimusic backup db file:
+# -› cd ~/backups/vimusic
+# Execute the command:
+# -› bash <(curl https://raw.githubusercontent.com/MajinSaaY/scripts/main/get-vimusic-url-list-playlists.sh)
+
+#extract sql to csv (playlist)
+for db in *.db
+  do sqlite3 -csv "${db}" "select id,name from Playlist;" > playlist.csv
+done
+
+#extract sql to csv (playlist song map)
+for db in *.db
+  do sqlite3 -csv "${db}" "select songId,playlistId from SongPlaylistMap;" > playlistmap.csv
+done
+
+#playlist id + name
+playlists=$(cat playlist.csv)
+#replace white space
+playlists=${playlists// /_}
+#remove double quote symbol
+playlists=${playlists//\"/}
+
+#playlist id
+playlistid=$(cat playlist.csv | cut -d',' -f1)
+
+#write playlist id + name
+for i in $playlists
+  do echo "${i}" >> playlist.txt
+done
+
+#write song id
+for i in $playlistid
+  do id=$(grep ,$i playlistmap.csv | cut -d',' -f1)
+  echo "${id}" >> ${i}.txt
+done
+
+#input url
+for i in $playlistid
+  do for id in $(cat ${i}.txt); do echo "https://music.youtube.com/watch?v=${id}" >> ${i}-url.txt; done
+  rm -f ${i}.txt
+done
+
+#rename txt files
+for i in $(cat playlist.txt)
+  do name=$(grep $i playlist.txt | cut -d',' -f2-)
+  id=$(grep $i playlist.txt | cut -d',' -f1)
+  mv ${id}-url.txt ${name}.txt
+done
+
+#cleanup
+rm -rf playlistmap.csv playlist.csv playlist.txt
