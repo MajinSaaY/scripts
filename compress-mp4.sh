@@ -12,11 +12,11 @@
 #Create empty lists
 touch .list.txt .to-compress.txt .compressed.txt
 
-#Create mp4 file list
-ls *.mp4 | rev | cut -d'.' -f2- | rev > .list.txt
-
 #Replace white space on filename
 for file in *; do mv "$file" ${file// /_}; done
+
+#Create mp4 file list
+ls *.mp4 | rev | cut -d'.' -f2- | rev > .list.txt
 
 #Create to-compress list
 diff --suppress-common-lines .list.txt .compressed.txt | grep "^<\|^>" | sed "s/^. //g" > .to-compress.txt
