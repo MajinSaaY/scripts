@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 #
 # This script is used to delete some tags in all mp3 files within a folder.
 # The process is straight foward with a single command to delete tags.

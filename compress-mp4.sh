@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 #
 # This script is used to compress all mp4 files within a folder. (x264)
 #

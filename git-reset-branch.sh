@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 #
 # This script is used to reset any branch, deleting all commit history but keeping files.
 #

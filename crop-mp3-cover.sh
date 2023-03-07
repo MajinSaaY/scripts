@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 #
 # This script is used to crop thumbnails in all mp3 files within a folder.
 # The process is: extract the cover > crop > resize > embed again > remove leftovers.

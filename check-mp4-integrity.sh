@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 #
 # This script is used to check integrity of all mp4 files within a folder.
 # The process is to recode video to null, forcing it to just read and report any errors.

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 #
 # This script is used to generate url list for all your music from vimusic backup db (included in playlists only)
 #

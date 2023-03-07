@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 #
 # This script is used to compress all jpg/jpeg files within a folder.
 #
